@@ -1,0 +1,37 @@
+body,html{
+	justify-content: center;
+	display: flex;
+
+	align-items: center;
+	background-image: url("image.jpg");
+	min-height: 500px;
+	background-attachment: fixed;
+	 background-position: center;
+	 background-repeat: no-repeat;
+	 background-size: cover;
+
+}
+
+
+div {
+	flex-direction: column;
+	background-color: rgb(233, 180, 154);
+	border: 4px solid #171717;
+	border-radius: 100%;
+	height: 400px;
+	width: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	transition: all 2sc;
+}
+.fa-magic{
+	font-size: 3em;
+}
+.btn{
+	background-color: #171717;
+	color: #FF8F57;
+	border: 0px;
+	 
+}
